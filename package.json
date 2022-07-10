@@ -2,15 +2,17 @@
   "name": "typescript-mono",
   "description": "",
   "private": true,
+  "author": "Benjamin Palko",
+  "license": "ISC",
   "version": "1.0.0",
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "clean": "lerna run clean",
     "build": "lerna run build",
+    "test": "lerna run test",
     "lint": "lerna run lint"
   },
   "dependencies": {
-
   },
   "devDependencies": {
     "lerna": "5.1.8",

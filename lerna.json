@@ -3,7 +3,7 @@
     "api-gateway",
     "datastore",
     "orchestrator",
-    "types"
+    "shared-types"
   ],
   "useNx": false,
   "version": "0.0.0"

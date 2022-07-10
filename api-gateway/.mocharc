@@ -1,0 +1,8 @@
+{
+  "color": true,
+  "extension": [".spec.ts", ".spec.tsx"],
+  "parallel": true,
+  "recursive": true,
+  "require": ["ts-node/register"],
+  "spec": ["src"]
+}

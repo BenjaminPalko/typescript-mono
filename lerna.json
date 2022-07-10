@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "api-gateway",
+    "datastore",
+    "orchestrator",
+    "types"
+  ],
+  "useNx": false,
+  "version": "0.0.0"
+}

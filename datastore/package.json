@@ -2,7 +2,7 @@
   "name": "datastore",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon src/main.ts",
     "clean": "rimraf build",
     "build": "tsc -p tsconfig.production.json",
     "test": "mocha",

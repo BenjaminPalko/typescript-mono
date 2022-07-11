@@ -1,0 +1,15 @@
+services:
+  api-gateway:
+    container_name: gorgon-api-gateway
+    build:
+      context: api-gateway
+    expose:
+      - 8080:8080
+  datastore:
+    container_name: gorgon-datastore
+    build:
+      context: datastore
+  orchestrator:
+    container_name: gorgon-orchestrator
+    build:
+      context: orchestrator

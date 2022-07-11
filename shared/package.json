@@ -1,6 +1,6 @@
 {
-  "name": "shared-types",
-  "description": "Package for shared types",
+  "name": "shared",
+  "description": "Package for shared types, classes and functions",
   "version": "1.0.0",
   "scripts": {
     "clean": "rimraf build",

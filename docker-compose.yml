@@ -7,8 +7,8 @@ services:
       - 15672:15672
   api-gateway:
     container_name: gorgon-api-gateway
-    build:
-      context: api-gateway
+    build: api-gateway
+    entrypoint: node main.js
     depends_on:
       - rabbitmq
     expose:
@@ -17,16 +17,16 @@ services:
       - RABBITMQ_URI=amqp://rabbitmq:5672
   datastore:
     container_name: gorgon-datastore
-    build:
-      context: datastore
+    build: datastore
+    entrypoint: node main.js
     depends_on:
       - rabbitmq
     environment:
       - RABBITMQ_URI=amqp://rabbitmq:5672
   orchestrator:
     container_name: gorgon-orchestrator
-    build:
-      context: orchestrator
+    build: orchestrator
+    entrypoint: node main.js
     depends_on:
       - rabbitmq
     environment:

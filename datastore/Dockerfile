@@ -1,6 +1,8 @@
 FROM node:16
 
 WORKDIR /app .
-COPY ./build .
+COPY package.json .
+RUN npm i
+COPY build .
 
 RUN ["node", "main.js"]

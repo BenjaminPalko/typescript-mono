@@ -1,6 +1,7 @@
 {
   "name": "datastore",
   "version": "1.0.0",
+  "main": "build/main.js",
   "scripts": {
     "dev": "nodemon src/main.ts",
     "clean": "rimraf build",
@@ -9,7 +10,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "shared-types": "1.0.0",
+    "shared": "*",
     "amqplib": "0.10.0",
     "mongoose": "6.4.4"
   },

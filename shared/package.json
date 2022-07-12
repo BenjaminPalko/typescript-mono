@@ -2,6 +2,8 @@
   "name": "shared",
   "description": "Package for shared types, classes and functions",
   "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "clean": "rimraf build",
     "build": "tsc -p tsconfig.production.json",

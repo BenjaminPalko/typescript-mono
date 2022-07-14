@@ -5,6 +5,6 @@
     "orchestrator",
     "shared"
   ],
-  "useNx": false,
+  "useNx": true,
   "version": "0.0.0"
 }
